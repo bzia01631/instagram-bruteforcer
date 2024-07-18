@@ -42,9 +42,9 @@ class InstaBrute(object):
     def __init__(self):
 
         try:
-            user = input('username : ')
+            user = input('ayyan_farrukh : ')
             Combo = input('passList : ')
-            print('\n----------------------------')
+            print('\n----------------------------'
           
         except:
             print(' The tool was arrested exit ')
